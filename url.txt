@@ -1,0 +1,116 @@
+CÁC URL
+
+    *login*
+        http://localhost/school/index.php?controller=base&action=index
+
+
+    *logout*
+        http://localhost/school/index.php?controller=base&action=logout    
+
+
+    *dashboard*
+        http://localhost/school/index.php?controller=base&action=dashboard
+    
+
+    *training staff*
+        index: 
+            http://localhost/school/index.php?controller=trainingStaff&action=index
+        
+        search:
+            http://localhost/school/index.php?controller=trainingStaff&keyword=?&action=index
+
+        create:
+            http://localhost/school/index.php?controller=trainingStaff&action=create
+
+        detail:
+            http://localhost/school/index.php?controller=trainingStaff&action=detail&id=$id
+
+        edit:
+            http://localhost/school/index.php?controller=trainingStaff&action=edit&id=$id
+        
+        delete:
+            http://localhost/school/index.php?controller=trainingStaff&action=delete&id=$id
+
+
+    *course category*
+        index: 
+            http://localhost/school/index.php?controller=courseCategory&action=index
+        
+        search:
+            http://localhost/school/index.php?controller=courseCategory&keyword=?&action=index
+
+        create:
+            http://localhost/school/index.php?controller=courseCategory&action=create
+
+        detail:
+            http://localhost/school/index.php?controller=courseCategory&action=detail&id=$id
+
+        edit:
+            http://localhost/school/index.php?controller=courseCategory&action=edit&id=$id
+        
+        delete:
+            http://localhost/school/index.php?controller=courseCategory&action=delete&id=$id
+
+        deleteTrainee:
+            http://localhost/school/index.php?controller=courseCategory&action=deleteTrainee&id=$id
+
+
+    *course*
+        index: 
+            http://localhost/school/index.php?controller=course&action=index
+        
+        search:
+            http://localhost/school/index.php?controller=course&keyword=?&action=index
+
+        create:
+            http://localhost/school/index.php?controller=course&action=create
+
+        detail:
+            http://localhost/school/index.php?controller=course&action=detail&id=$id
+
+        edit:
+            http://localhost/school/index.php?controller=course&action=edit&id=$id
+        
+        delete:
+            http://localhost/school/index.php?controller=course&action=delete&id=$id
+
+    
+    *trainer*
+        index: 
+            http://localhost/school/index.php?controller=trainer&action=index
+        
+        search:
+            http://localhost/school/index.php?controller=trainer&keyword=?&action=index
+
+        create:
+            http://localhost/school/index.php?controller=trainer&action=create
+
+        detail:
+            http://localhost/school/index.php?controller=trainer&action=detail&id=$id
+
+        edit:
+            http://localhost/school/index.php?controller=trainer&action=edit&id=$id
+        
+        delete:
+            http://localhost/school/index.php?controller=trainer&action=delete&id=$id
+
+
+    *trainee*
+        index: 
+            http://localhost/school/index.php?controller=trainee&action=index
+        
+        search:
+            http://localhost/school/index.php?controller=trainee&keyword=?&action=index
+
+        create:
+            http://localhost/school/index.php?controller=trainee&action=create
+
+        detail:
+            http://localhost/school/index.php?controller=trainee&action=detail&id=$id
+
+        edit:
+            http://localhost/school/index.php?controller=trainee&action=edit&id=$id
+        
+        delete:
+            http://localhost/school/index.php?controller=trainee&action=delete&id=$id
+
